@@ -27,3 +27,5 @@ response codes
 3. Redirecciones (300–399),
 4. Errores de los clientes (400–499),
 5. Errores de los servidores (500–599).
+
+material symbols and icons
