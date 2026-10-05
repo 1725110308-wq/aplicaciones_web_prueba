@@ -1,0 +1,58 @@
+#mi_botton {
+    background-color: rgb(105, 145, 158);
+    color:white; /*Azul cielo profundo*/
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#mi_botton2 {
+    background-color: black;
+    color: aliceblue;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+button {
+    background-color:cornflowerblue;
+    color: black;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: blue;
+    cursor:pointer;
+}
+
+/*1. Selector universal */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*2. Selector de tipo (etiqueta de html)*/
+
+p {
+    line-height:1.6;
+    color:blue;
+}
+/*1. Selector*/
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+/*1. Selector universal
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* selector de tipo (etiqueta de html)*/
+p{
+    line-height: 1.6;
+    color: rgb(0, 124, 25);
+}
