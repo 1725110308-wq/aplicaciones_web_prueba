@@ -15,7 +15,7 @@
 button {
     background-color:cornflowerblue;
     color: black;
-    border-radius: 8px;
+    border-radius: 100%;
 }
 
 button:hover {
@@ -51,8 +51,35 @@ box-sizing:border-box;
     padding: 0;
     box-sizing: border-box;
 }
-/* selector de tipo (etiqueta de html)*/
+/*2. selector de tipo (etiqueta de html)*/
 p{
     line-height: 1.6;
     color: rgb(0, 124, 25);
+    background-color: black;
 }
+/*3. Selector de clase (prefijo .), es reutilizable*/
+.destacable{
+    background-color: aliceblue;
+    border-radius: 12px;
+    box-shadow: 0 4rem 6rem -1px rgba(234, 9, 9, 0.9);
+
+}
+/* delector de id*/
+#parrafo_2{
+
+    background-color: azure;
+}
+/*slector descendiente
+*/
+nav p{
+    font-size: 60px;
+    padding: 1rem;
+    color: rgb(255, 0, 0);
+}
+/* unidades de medida
+1. px (pixeles): medida absoluta fija -> bordes
+2. rem (Root EM): medida relativa al tamaño de la pantalla
+            1rem = 16 px
+3. % (Porcentaje): Relativo al tama;o de la caja del padre
+4. vw/vh (viewport width/heigth): Relativo a la pantalla completa
+*/
