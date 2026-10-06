@@ -1,3 +1,10 @@
+:root {
+  --color-primario: #E0C1B1;
+  --color-secundario: #C3A186;
+  --color-de-fondo: #7186B0;
+  --color-4: #51779E;
+  --color-5: #3A7091;
+}
 #mi_botton {
     background-color: rgb(105, 145, 158);
     color:white; /*Azul cielo profundo*/
@@ -6,20 +13,20 @@
 }
 
 #mi_botton2 {
-    background-color: black;
+    background-color: var(--color-primario);
     color: aliceblue;
     font-size: 16px;
     border-radius: 8px;
 }
 
 button {
-    background-color:cornflowerblue;
+    background-color:var(--color-primario);
     color: black;
     border-radius: 100%;
 }
 
 button:hover {
-    background-color: blue;
+    background-color: var(--color-de-fondo);
     cursor:pointer;
 }
 
@@ -35,7 +42,7 @@ button:hover {
 
 p {
     line-height:1.6;
-    color:blue;
+    color:var(--color-secundario);
 }
 /*1. Selector*/
 
@@ -55,11 +62,11 @@ box-sizing:border-box;
 p{
     line-height: 1.6;
     color: rgb(0, 124, 25);
-    background-color: black;
+    background-color: var(--color-5);
 }
 /*3. Selector de clase (prefijo .), es reutilizable*/
 .destacable{
-    background-color: aliceblue;
+    background-color: var(--color-4);
     border-radius: 12px;
     box-shadow: 0 4rem 6rem -1px rgba(234, 9, 9, 0.9);
 
@@ -67,7 +74,7 @@ p{
 /* delector de id*/
 #parrafo_2{
 
-    background-color: azure;
+    background-color: var(--color-5);
 }
 /*slector descendiente
 */
@@ -82,4 +89,9 @@ nav p{
             1rem = 16 px
 3. % (Porcentaje): Relativo al tama;o de la caja del padre
 4. vw/vh (viewport width/heigth): Relativo a la pantalla completa
+*/
+/*
+en papel maquetado de un inicio de sesion
+elegir colores
+pasar a html
 */
