@@ -1,0 +1,35 @@
+*{
+    display: list-item;
+    align-items: center;
+}
+body{
+    background-color: azure;
+}
+form{
+    align-items: center;
+}   
+div{
+    align-items: baseline;
+}
+label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+}
+input{
+    border-radius: 1rem;
+    color: rgb(1, 1, 1);
+}
+input:hover{
+    background-color: black;
+    color: white;
+}
+button{
+    border: 10px black;
+    border-radius: 10px;
+    background-color: beige;
+}
+button:hover{
+    background-color: aquamarine;
+    color: brown;
+}
